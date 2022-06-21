@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#fondoMain{
+    background-image: url("./archivos/entrada.jpg"); 
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    
+}
+
+
+#fondoMain img{
+    opacity: 55%;
+}
+#fondoMain h1{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#grilla{
+    /*display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 2fr);
+    grid-gap: 15px;
+    grid-area: auto;
+    color: white;
+    font-family:fantasy ;
+    text-align: center;
+    */
+    display: flex;
+
+}
+
+#listaCategorias{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.btnCategorias{
+    color: white;
+    width: 90%;
+    padding: 15px;
+    margin: 20px 10px;
+    background-color: chocolate;
+}
+#btnReserva{
+    text-decoration: none;
+    text-align: center;
+}
+#listaProductos{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productosItem{
+    width: 22%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.productosItem img{
+    width: 100%;
+    height: 50%;
+}
+
+#grilla h2{
+    
+    font-size: 25px;
+
+}
+p{
+    font-size: 15px;
+}
+#formularioReserva{
+    margin-top: 50px;
+}
+#form{
+    margin: 15px;
+}
+
+#reserva{
+    background-image: url(./archivos/entrada.jpg);    
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    border: 2px solid red;
+}
+
+#reserva img{
+    opacity: 25%;
+
+}
+#reserva h3{
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: underline;
+    color: white;
+}
+#boton{
+    text-align: center;
+    margin-left: 15px;
+}
+
+.btnForm{
+    border-radius: 2px;
+    margin: 15px;
+}
+
+#listaReserva li{   
+    list-style-type: none;
+    padding: 3px;
+}
+#listaReserva li li:nth-child(even){
+    background: #ddd;
+}
+
+#cartelReserva{
+    background-color: white;
+    width: 50%;
+    display: inline;
+    flex-direction: row;
+}
+
+#cartelReserva div{
+    text-align: center;
+    padding: 50px;
+}
+#buttons{
+    text-align: center;
+}
+/*pagina administrador*/
+
+#logIn{
+    background-image: url(./archivos/entrada.jpg);
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+}
+#logIn h2{
+    color: white
+}
+.inputLogIn{    
+    border-radius: 2px;
+    margin: 15px;
+}
+#btnIngresar{
+    margin-left: 15px;
+}
+
+#listConteiner{
+    display: flex;
+}
+#listAdm{
+    margin-left: 10px;
+    border: 1px black solid;
+}
+
+.terminada{
+    background-color: red;
+}

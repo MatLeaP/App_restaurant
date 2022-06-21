@@ -1,0 +1,115 @@
+[
+    
+    {
+        "img": "../archivos/nachos.jpg" ,
+        "id": 1, 
+        "categoria": "entrada", 
+        "producto": "Entrada 1(Nachos)",
+        "precio": 150
+    },
+    {   
+        "img": "../archivos/empjyq.jpg" , 
+        "id": 2, 
+        "categoria": "entrada",
+        "producto": "Entrada 2(Empanadas J y Q)", 
+        "precio": 200
+    },
+    {   
+        "img": "../archivos/fideosconbolognesa.jpg" , 
+        "id": 3, 
+        "categoria": "comida", 
+        "producto": "Fideos con salsa bolognesa", 
+        "precio": 450
+    },
+        
+    {   "img": "../archivos/fideos4quesos.jpg" , 
+        "id": 4, 
+        "categoria": "comida", 
+        "producto": "Fideos con salsa 4 quesos", 
+        "precio": 500
+    },
+    {
+        "img": "../archivos/milapure.jpg" , 
+        "id": 5, 
+        "categoria": "comida", 
+        "producto": "Milanesa con pure", 
+        "precio": 400
+    },
+    {   
+        "img": "../archivos/milaconfritas.jpg" , 
+        "id": 6,
+        "categoria": "comida", 
+        "producto": "Milanesa con papas fritas", 
+        "precio": 550
+    },
+    {
+        "img": "../archivos/agua500cc.jpg" , 
+        "id": 7,
+        "categoria": "bebida", 
+        "producto": "Agua mineral 500cc", 
+        "precio": 100
+    },
+    {
+        "img": "../archivos/agua1.25.jpg",
+        "id": 8, 
+        "categoria": "bebida", 
+        "producto": "Agua mineral 1.25cc", 
+        "precio": 160
+    },
+    {
+        "img": "../archivos/aguacongas.jpg" , 
+        "id": 9, 
+        "categoria": "bebida", 
+        "producto": "Soda 500cc", 
+        "precio": 110
+    },
+    {
+        "img": "../archivos/coca500.jpg" , 
+        "id": 10, 
+        "categoria": "bebida", 
+        "producto": "Coca-cola 500cc", 
+        "precio": 200
+    },
+    {
+        "img": "../archivos/cerveza.jpg" , 
+        "id": 11, 
+        "categoria": "bebida", 
+        "producto": "Cerveza 1000cc", 
+        "precio": 450
+    },
+    {
+        "img": "../archivos/tinto.jpg" ,
+        "id": 12, 
+        "categoria": "bebida", 
+        "producto": "Vino tinto 750cc", 
+        "precio": 600
+    },
+    {
+        "img": "../archivos/flan.jpg" , 
+        "id": 13, 
+        "categoria": "postre",
+        "producto": "Flan con crema y ddl", 
+        "precio": 320
+    },
+    {
+        "img": "../archivos/bochahelado.jpg" , 
+        "id": 14,
+        "categoria": "postre", 
+        "producto": "Bocha helado", 
+        "precio": 300
+    },
+    {
+        "img": "../archivos/almendrado.jpg" , 
+        "id": 15, 
+        "categoria": "postre", 
+        "producto": "Almendrado", 
+        "precio": 350
+    },
+    {
+        "img": "../archivos/tiramisu.jpg" , 
+        "id": 16, 
+        "categoria": "postre", 
+        "producto": "Tiramisu", 
+        "precio": 280
+    }
+]
